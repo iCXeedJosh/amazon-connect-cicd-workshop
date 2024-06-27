@@ -1,6 +1,6 @@
 {
-  "instanceAlias": "iCXeed-Devops-Connect",
-  "instanceStorageBucketName": "connect-store",
+  "instanceAlias": "iCXeed-Devops-Connect-Test",
+  "instanceStorageBucketName": "connect-store-test",
   "identityManagementType": "CONNECT_MANAGED",
   "instanceStorageConfig": [
     {
