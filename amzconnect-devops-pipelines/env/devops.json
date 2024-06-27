@@ -2,8 +2,8 @@
     "env": "devops",
     "account": "XXXXXXXXXXXZ",
     "region": "us-east-1",
-    "codestarArn": "arn:aws:codestar-connections:us-east-2:XXXXXXXXXXXX:connection/5ab48603-7bae-4a43-a256-XXXXXXXXXXXX",
-    "repo": "forked repo here",
-    "owner": "Your github alias",
-    "email": "your email address"
+    "codestarArn": "arn:aws:codestar-connections:ap-southeast-2:055283454589:connection/90a5bb76-710d-4603-ae20-06f36d0b82cc",
+    "repo": "amazon-connect-cicd-workshop",
+    "owner": "iCXeedJosh",
+    "email": "josh.alperez@icxeed.ai"
 }
