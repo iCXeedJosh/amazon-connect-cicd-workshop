@@ -1,4 +1,8 @@
 {
     "account": "055283454589",
+<<<<<<< HEAD
     "region": "ap-southeast-1"
+=======
+    "region": "ap-southeast-2"
+>>>>>>> ceadfe6 (Updated configuration files)
 }
