@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "Comment": "A description of my state machine",
     "StartAt": "ListInstances",
     "States": {
@@ -14,6 +15,17 @@
         "Next": "Filter Instances",
         "Parameters": {
           "Name": "AmazonConnectInstanceName"
+=======
+  "instanceAlias": "devopsconnect",
+  "instanceStorageBucketName": "devops-buck",
+  "identityManagementType": "SAML",
+  "instanceStorageConfig": [
+    {
+      "ResourceType": "CALL_RECORDINGS",
+      "StorageConfig": {
+        "S3Config": {
+          "BucketPrefix": "CallRecordings"
+>>>>>>> a5901af (Updated configuration files)
         },
         "Resource": "arn:aws:states:::aws-sdk:ssm:getParameter",
         "ResultPath": "$.instanceAlias",
