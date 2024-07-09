@@ -1,7 +1,7 @@
 {
-  "instanceAlias": "myTestalias-aaazzz",
-  "instanceStorageBucketName": "connect-aaazzz",
-  "identityManagementType": "CONNECT_MANAGED",
+  "instanceAlias": "develop",
+  "instanceStorageBucketName": "devops-bucket",
+  "identityManagementType": "SAML",
   "instanceStorageConfig": [
     {
       "ResourceType": "CALL_RECORDINGS",
