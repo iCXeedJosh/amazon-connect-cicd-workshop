@@ -1,6 +1,6 @@
 {
-  "instanceAlias": "devopsconnect",
-  "instanceStorageBucketName": "devops-buck",
+  "instanceAlias": "devops",
+  "instanceStorageBucketName": "devops-bucket",
   "identityManagementType": "SAML",
   "instanceStorageConfig": [
     {
