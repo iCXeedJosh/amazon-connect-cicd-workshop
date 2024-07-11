@@ -1,23 +1,6 @@
 {
-<<<<<<< HEAD
-    "Comment": "A description of my state machine",
-    "StartAt": "ListInstances",
-    "States": {
-      "ListInstances": {
-        "Type": "Task",
-        "Next": "Get Instance Name",
-        "Parameters": {},
-        "Resource": "arn:aws:states:::aws-sdk:connect:listInstances",
-        "ResultPath": "$.currentInstances"
-      },
-      "Get Instance Name": {
-        "Type": "Task",
-        "Next": "Filter Instances",
-        "Parameters": {
-          "Name": "AmazonConnectInstanceName"
-=======
-  "instanceAlias": "devopsconnect",
-  "instanceStorageBucketName": "devops-buck",
+  "instanceAlias": "developer-ops",
+  "instanceStorageBucketName": "devops-bucks",
   "identityManagementType": "SAML",
   "instanceStorageConfig": [
     {
@@ -25,7 +8,6 @@
       "StorageConfig": {
         "S3Config": {
           "BucketPrefix": "CallRecordings"
->>>>>>> a5901af (Updated configuration files)
         },
         "Resource": "arn:aws:states:::aws-sdk:ssm:getParameter",
         "ResultPath": "$.instanceAlias",
