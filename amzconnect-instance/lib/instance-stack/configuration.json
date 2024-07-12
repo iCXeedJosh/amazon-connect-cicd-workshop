@@ -1,6 +1,6 @@
 {
-  "instanceAlias": "developer-ops",
-  "instanceStorageBucketName": "devops-bucks",
+  "instanceAlias": "devops-us",
+  "instanceStorageBucketName": "devops-bucks-us",
   "identityManagementType": "SAML",
   "instanceStorageConfig": [
     {
